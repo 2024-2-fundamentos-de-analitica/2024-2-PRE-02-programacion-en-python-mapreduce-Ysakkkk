@@ -27,3 +27,4 @@ jobs:
       env:
         TEST_RESULTS: "${{steps.test.outputs.result}}"
       with:
+        runners: test
